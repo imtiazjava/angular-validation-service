@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "emsapp"
+    }
+  },
+  "defaultProject": "emsapp",
+  "cli": {
+    "analytics": false
+  }
 }

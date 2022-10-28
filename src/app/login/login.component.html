@@ -1,0 +1,18 @@
+<div class="c1">
+  <h3 style="padding: 20px; text-decoration: underline">LOGIN FORM</h3>
+  <form #myform="ngForm">
+    USERNAME:<input type="text" name="username" [(ngModel)]="username" 
+    required="required" #f1="ngModel" />
+    <span class="error1" 
+    *ngIf="f1.touched && f1.invalid && f1.errors.required">
+    *USERNAME IS REQUIRED</span><br />
+
+    <br />
+
+    PASSWORD:<input type="password" 
+    name="password" [(ngModel)]="password" required="required" #f2="ngModel" />
+    <span class="error2" *ngIf="f2.touched && 
+    f2.invalid && f2.errors.required">*PASSWORD IS REQUIRED</span><br /><br />
+    <input type="submit" (click)="formSubmit(myform)" />
+  </form>
+</div>
