@@ -2,3 +2,19 @@
     color:red;
     font-size:1rem;
 }
+.c1{
+    font-size:1.2rem;
+    padding:10px;
+    text-align: left;
+    border:1px solid black;
+    
+}
+h3{
+    border-bottom: 1px solid rgba(33, 33, 33, 0.3);
+    border-width: 50px;
+}
+button{
+    width:30rem;
+    margin-left:150px;
+
+}
